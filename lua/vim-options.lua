@@ -15,7 +15,7 @@ vim.keymap.set('n', '<C-Right>', ':wincmd l<CR>')
 
 -- split veritcally + horizontally
 vim.keymap.set('n', '<C-|>', ':vsplit<CR>', { silent = true })
-vim.keymap.set('n', '<C-_>', ':split<CR>', { silent = true })
+vim.keymap.set('n', '<C-->', ':split<CR>', { silent = true })
 
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
 vim.wo.number = true
